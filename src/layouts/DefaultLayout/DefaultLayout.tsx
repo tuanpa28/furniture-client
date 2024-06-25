@@ -1,9 +1,10 @@
 import { Outlet } from 'react-router-dom';
+import Header from '@/layouts/components/Header';
 
 const DefaultLayout = () => {
   return (
-    <div>
-      Client
+    <div className='relative'>
+      <Header />
       <Outlet />
     </div>
   );
